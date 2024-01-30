@@ -1,16 +1,11 @@
 {
   "sections": {
     "main": {
-      "type": "404-template",
-      "settings": {}
-    },
-    "newsletter": {
-      "type": "newsletter",
+      "type": "404",
       "settings": {}
     }
   },
   "order": [
-    "main",
-    "newsletter"
+    "main"
   ]
 }

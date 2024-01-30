@@ -1,397 +1,918 @@
 {
   "sections": {
-    "1ad6b202-7df6-4dec-9724-c5ef93a6e9a9": {
-      "type": "slideshow",
+    "section_image_accordions_XCrp6c": {
+      "type": "section-image-accordions",
       "blocks": {
-        "6b5a9863-bf0b-421d-a71c-bcbddbb18b66": {
+        "image_a43L4p": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_paradise_summer.png",
-            "pretext": "",
-            "title": "",
-            "subtitle": "",
-            "button1": "",
-            "button1_link": "shopify:\/\/collections\/summer-sale",
-            "button1_style": "global-button--banner",
-            "button2": "",
-            "button2_link": "",
-            "button2_style": "global-button--banner",
-            "text_position": "center",
-            "text_align": "center",
-            "caption_content_background": "original",
-            "mobile_image": "shopify:\/\/shop_images\/banner_paradise_summer.png"
+            "image": "shopify:\/\/shop_images\/BANNER1.png",
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "SHORTS",
+            "text": "",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
           }
         },
-        "eddf3ca1-cd96-4eee-94cc-1fd863548764": {
+        "image_FxEHGx": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-paradise-nueva-temporada2.png",
-            "pretext": "",
-            "title": "",
-            "subtitle": "",
-            "button1": "",
-            "button1_link": "",
-            "button1_style": "global-button--banner",
-            "button2": "",
-            "button2_link": "",
-            "button2_style": "global-button--banner",
-            "text_position": "center",
-            "text_align": "center",
-            "caption_content_background": "original",
-            "mobile_image": "shopify:\/\/shop_images\/banner_movil_paradisejeans.png"
+            "image": "shopify:\/\/shop_images\/maxi_faldas-3.jpg",
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "FALDAS",
+            "text": "",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        },
+        "image_tF3Yzb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BANNER2.png",
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "CARGO",
+            "text": "",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
           }
         }
       },
       "block_order": [
-        "6b5a9863-bf0b-421d-a71c-bcbddbb18b66",
-        "eddf3ca1-cd96-4eee-94cc-1fd863548764"
+        "image_a43L4p",
+        "image_FxEHGx",
+        "image_tF3Yzb"
       ],
       "settings": {
-        "wide_display": true,
-        "slideshow_text_animation": "",
-        "slideshow_animation": "slide",
-        "slideshow_speed": 3,
-        "activate_adaptiveHeight": true,
-        "mobile_text_below_image": false,
-        "mobile_text_color": "",
-        "css_class": "",
-        "custom_css": ""
+        "accordion_height": "full-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "heading_size": 140,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "6b48fb36-2c63-4917-b9a3-962752b1b57e": {
-      "type": "divider",
-      "settings": {
-        "divider_spacing": 20,
-        "divider_border": false,
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "7b11313b-6243-4597-8127-ece9b9cc1a52": {
-      "type": "collection-list",
+    "0fd0a0be-e77a-4ddb-8b85-6b42aef84431": {
+      "type": "section-press",
       "blocks": {
-        "99528382-7e36-4a69-955f-0de523e550ab": {
-          "type": "collection",
+        "template--18952593899841__0fd0a0be-e77a-4ddb-8b85-6b42aef84431-1683128791b688bb72-0": {
+          "type": "press",
           "settings": {
-            "feature_collection": "short",
-            "image": "shopify:\/\/shop_images\/portadas_paradise_24-short.png"
+            "text": "<h2><strong>TIRO MEDIO PITILLO<\/strong><\/h2>",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/b1717-1-4ab04f0d-9bc9-4b10-92d0-f4901e9c79e0.jpg",
+            "logo_width": 180
           }
         },
-        "e1e596cb-0b34-4a9e-80ab-96e82483fc71": {
-          "type": "collection",
+        "press_6rCKyg": {
+          "type": "press",
           "settings": {
-            "feature_collection": "high-waist-flare",
-            "image": "shopify:\/\/shop_images\/portadas_paradise_24-flare.png"
+            "text": "<h2><strong>HIGH WAIST<\/strong><\/h2>",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/1779_0003_capa1-e48f6a3a-b4fd-441e-b80e-11c62d7f52eb_74c7601c-94a6-4471-99d0-30399858f7da.jpg",
+            "logo_width": 180
           }
         },
-        "template--14627287760960__7b11313b-6243-4597-8127-ece9b9cc1a52-collection-1": {
-          "type": "collection",
+        "press_rUAjwB": {
+          "type": "press",
           "settings": {
-            "feature_collection": "cargo",
-            "image": "shopify:\/\/shop_images\/portadas_paradise_24-cargo.png"
+            "text": "<h2><strong>TIRO ALTO PITILLO<\/strong><\/h2>",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/1114-3-90e00974-81f5-4a1e-8086-caaf344a7cfd_fc88a56b-7900-4868-95cc-d407ead8fe67.jpg",
+            "logo_width": 180
           }
         },
-        "template--14627287760960__7b11313b-6243-4597-8127-ece9b9cc1a52-collection-3": {
-          "type": "collection",
-          "disabled": true,
+        "press_G4BNKp": {
+          "type": "press",
           "settings": {
-            "feature_collection": "iconicos",
-            "image": "shopify:\/\/shop_images\/iconic-portada.png"
+            "text": "<h2><strong>CARGO<\/strong><\/h2>",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/1903-1-d453a3b5-efa8-4d18-b7c5-84f8074fc0ea.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_FTbXcG": {
+          "type": "press",
+          "settings": {
+            "text": "<h2><strong>WIDE LEG<\/strong><\/h2>",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/1654_0004_capa0-36151e62-47fd-4c04-8f2f-16798a78de1a_b3211a6c-1f86-4a42-b52a-0cc4fd3fef2d.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_wNVdFF": {
+          "type": "press",
+          "settings": {
+            "text": "<h2><strong>FLARE JEANS<\/strong><\/h2>",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/1834_0003_capa0-f4ebeb19-9a4d-41d6-b0e1-e56e331a6875.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_8Q48fx": {
+          "type": "press",
+          "settings": {
+            "text": "<h2><strong>MOM JEANS<\/strong><\/h2>",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/1773-1-79bd0027-ceaa-457a-9bd4-3856cf538156_0a476c1f-aed6-435d-bc7a-490298624ceb.jpg",
+            "logo_width": 180
+          }
+        },
+        "press_cEf4PH": {
+          "type": "press",
+          "settings": {
+            "text": "<h2><strong>JEGGINS<\/strong><\/h2>",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/1007.webp",
+            "logo_width": 180
+          }
+        },
+        "press_3B8Pe9": {
+          "type": "press",
+          "settings": {
+            "text": "<h2><strong>TIRO ALTO RECTO<\/strong><\/h2>",
+            "link": "",
+            "press_logo": "shopify:\/\/shop_images\/1817_0000_capa4-a22f3979-777e-4205-8729-57d86b7a6008.jpg",
+            "logo_width": 180
           }
         }
       },
       "block_order": [
-        "99528382-7e36-4a69-955f-0de523e550ab",
-        "e1e596cb-0b34-4a9e-80ab-96e82483fc71",
-        "template--14627287760960__7b11313b-6243-4597-8127-ece9b9cc1a52-collection-1",
-        "template--14627287760960__7b11313b-6243-4597-8127-ece9b9cc1a52-collection-3"
+        "template--18952593899841__0fd0a0be-e77a-4ddb-8b85-6b42aef84431-1683128791b688bb72-0",
+        "press_6rCKyg",
+        "press_rUAjwB",
+        "press_G4BNKp",
+        "press_FTbXcG",
+        "press_wNVdFF",
+        "press_8Q48fx",
+        "press_cEf4PH",
+        "press_3B8Pe9"
+      ],
+      "settings": {
+        "title": "Conoce nuestros calces",
+        "show_quotations": false,
+        "show_rounded_corners": false,
+        "autoplay": true,
+        "duration": 3,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "b32bd861-589d-4de7-a3a8-b50076aa0436": {
+      "type": "section-grid",
+      "blocks": {
+        "template--18952593899841__b32bd861-589d-4de7-a3a8-b50076aa0436-168312639266b8b01a-3": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify:\/\/shop_images\/1780_-acting.jpg",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "NEW ARRIVALS",
+            "text": "",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--18952593899841__b32bd861-589d-4de7-a3a8-b50076aa0436-168312639266b8b01a-2": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify:\/\/shop_images\/portadilla_paradise_iconic.png",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "LAST CHANCE TO BUY",
+            "text": "",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952593899841__b32bd861-589d-4de7-a3a8-b50076aa0436-168312639266b8b01a-3",
+        "template--18952593899841__b32bd861-589d-4de7-a3a8-b50076aa0436-168312639266b8b01a-2"
+      ],
+      "settings": {
+        "height": "750",
+        "heading_size": 150,
+        "button_1_color": "btn--secondary",
+        "button_1_style": "btn--solid-border",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--primary",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 22,
+        "padding_bottom": 0
+      }
+    },
+    "4cf35844-daa9-481f-b090-8c1bf37ee05d": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "jeans-moda",
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p><em>Best<\/em> Sellers 💘<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#febaed",
+        "highlight_text_color": "#000000",
+        "heading_size": 230,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 32
+      }
+    },
+    "section_marquee_K3zEBt": {
+      "type": "section-marquee",
+      "blocks": {
+        "text_pb4DDR": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/collections\" title=\"Todas las colecciones\">VER MÁS <em><strong>BEST SELLERS  <\/strong><\/em>💘<\/a><\/p>",
+            "text_color": "",
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#e3a2d3",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 42,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_pb4DDR"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 25,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "slider_speed": 7,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_style": "subheading-text",
+        "text_size": 150,
+        "letter_spacing": 0,
+        "message_spacing": 65,
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "color": "#000000",
+        "border_color": "#000",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "section_video_PBeGKm": {
+      "type": "section-video",
+      "settings": {
+        "video_height": "four-fifty-height",
+        "text_position": "middle-center",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e5c465a18eec41caac41562435aac387.mp4",
+        "video_link": "",
+        "overlay_opacity": 15,
+        "text_color": "text-light",
+        "title": "<p>high quality<\/p><p><br\/><em>push up jeans<\/em><\/p>",
+        "heading_highlight_type": "stroke",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#ffffff",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--medium"
+      }
+    },
+    "section_collection_ip9pdK": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "jeans-moda",
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Back <em>in Stock  <\/em>⚡<\/p>",
+        "heading_highlight_type": "highlight-color",
+        "highlight_color": "#e4ff52",
+        "highlight_text_color": "#000000",
+        "heading_size": 230,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_marquee_zR3WMm": {
+      "type": "section-marquee",
+      "blocks": {
+        "text_kkAb4G": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/collections\" title=\"Todas las colecciones\">VER MÁS <em><strong>BACK IN STOCK <\/strong><\/em>⚡<\/a><\/p>",
+            "text_color": "",
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#b7d127",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 42,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_kkAb4G"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 25,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "slider_speed": 7,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_style": "subheading-text",
+        "text_size": 150,
+        "letter_spacing": 0,
+        "message_spacing": 65,
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "color": "#000000",
+        "border_color": "#000",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "579fe882-0a05-42f7-a30f-6dec6414a297": {
+      "type": "section-banner-text-columns",
+      "blocks": {
+        "12375268-386a-47e7-a867-e34e54fb1fb2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/graffiti.jpg",
+            "overlay_opacity": 0,
+            "subheading": "",
+            "heading": "PARADISE",
+            "text": "",
+            "button_text": "ver más",
+            "button_link": ""
+          }
+        },
+        "2b85308b-5fb9-4a1f-91dd-facf64118a93": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/celebrate.jpg",
+            "overlay_opacity": 10,
+            "subheading": "",
+            "heading": "CELEBRATE",
+            "text": "",
+            "button_text": "ver más",
+            "button_link": ""
+          }
+        },
+        "c3515ca6-0895-4855-8288-4325cd17cc9a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/city.jpg",
+            "overlay_opacity": 10,
+            "subheading": "",
+            "heading": "CITY",
+            "text": "",
+            "button_text": "ver más",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "12375268-386a-47e7-a867-e34e54fb1fb2",
+        "2b85308b-5fb9-4a1f-91dd-facf64118a93",
+        "c3515ca6-0895-4855-8288-4325cd17cc9a"
+      ],
+      "settings": {
+        "appearance": "columns",
+        "content_alignment": "center",
+        "text_alignment": "text-center",
+        "section_height": "full-height",
+        "enable_mobile_height": true,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "text_color": "text-light",
+        "button_color": "btn--white",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "show_single_image": false,
+        "heading_size": 125,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "eed1639f-4e75-408e-bbba-252f91e4ab8e": {
+      "type": "section-overlapping-images",
+      "settings": {
+        "text_position": "left",
+        "text_alignment": "left",
+        "images_width": 750,
+        "images_offset": 50,
+        "image_1": "shopify:\/\/shop_images\/1957-4-fg-5400682d-0762-449d-9199-e87e28776d3e_0be945a4-27df-4dad-b55a-8ca54fd8af08.jpg",
+        "image_link_1": "",
+        "image_2": "shopify:\/\/shop_images\/1957-1-fg-583cc76d-31d4-4517-b44d-ea4e19bf76ba_f98f3d4a-07f6-48af-9b83-5492d5c1b525.jpg",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "title": "<p>✨ Shop <em>Iconic  <\/em><\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d4b8de",
+        "highlight_text_color": "#000000",
+        "description": "<p>Use this text to describe a product, promotion, or your company.<\/p>",
+        "heading_size": 140,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--medium",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "gradient": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 56,
+        "padding_bottom": 6
+      }
+    },
+    "ba5ff9e9-c631-4459-9402-1c981f4c9659": {
+      "type": "section-grid",
+      "blocks": {
+        "template--21524360528150__ba5ff9e9-c631-4459-9402-1c981f4c9659-image-1": {
+          "type": "image",
+          "settings": {
+            "width": "100",
+            "image": "shopify:\/\/shop_images\/iconic-1.jpg",
+            "overlay_opacity": 30,
+            "text_position": "right",
+            "subheading": "",
+            "title": "Cambios y Devoluciones",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--21524360528150__ba5ff9e9-c631-4459-9402-1c981f4c9659-image-1"
+      ],
+      "settings": {
+        "height": "350",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "section-look": {
+      "type": "section-look",
+      "blocks": {
+        "section-look-0": {
+          "type": "product",
+          "settings": {
+            "product": "jeans-mujer-pants-cargo-1879-verde-paradise-jeans",
+            "position_x": 48,
+            "position_y": 71
+          }
+        },
+        "section-look-1": {
+          "type": "product",
+          "settings": {
+            "product": "jeans-mujer-pants-cargo-1903-verde-paradise-jeans",
+            "position_x": 64,
+            "position_y": 75
+          }
+        }
+      },
+      "block_order": [
+        "section-look-0",
+        "section-look-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cargos4.jpg",
+        "enable_aspect_ratio": true,
+        "main_image_aspect_ratio": 1,
+        "title": "Jeans Cargo",
+        "text": "<p>Nuestros favoritos de la temporada<\/p>",
+        "text_alignment": "text-left",
+        "show_hotspots": true,
+        "content_color": "text-dark",
+        "hotspot_color": "",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 16
+      }
+    },
+    "section_marquee_PzFMEt": {
+      "type": "section-marquee",
+      "blocks": {
+        "text_z3x4CT": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/collections\" title=\"Todas las colecciones\">VER MÁS <em><strong>JEANS CARGO <\/strong><\/em>✨<\/a><\/p>",
+            "text_color": "",
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#d9a8f0",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 42,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_z3x4CT"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 25,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "slider_speed": 7,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_style": "subheading-text",
+        "text_size": 150,
+        "letter_spacing": 0,
+        "message_spacing": 65,
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "color": "#000000",
+        "border_color": "#000",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "9e58ac81-e88d-4b2e-a006-c6d620af2258": {
+      "type": "section-grid",
+      "blocks": {
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-2": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/1809-9.jpg",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "FLARE",
+            "text": "",
+            "button_1_text": "Ver más",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-1": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/1957-2.png",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "BERMUDAS",
+            "text": "",
+            "button_1_text": "ver más",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-3": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/1830-1.png",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "FALDAS",
+            "text": "",
+            "button_1_text": "ver más",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-2",
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-1",
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-3"
+      ],
+      "settings": {
+        "height": "fullscreen",
+        "heading_size": 100,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full",
+        "add_gutter": true,
+        "padding_top": 22,
+        "padding_bottom": 40
+      }
+    },
+    "2b6776dc-1f06-4279-94cb-cbd3ecd653cc": {
+      "type": "section-columns",
+      "blocks": {
+        "template--18952593899841__2b6776dc-1f06-4279-94cb-cbd3ecd653cc-1683126238ada0cf52-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iconos2-01.jpg",
+            "title": "GUÍA DE TALLAS",
+            "text": "<p>Click aquí para conocer tu talla ideal<\/p>",
+            "button_text": "ver más",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "28a8d27f-cdf1-4a53-9e1f-4826c054da3d": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iconos2-02.jpg",
+            "title": "CAMBIOS Y DEVOLUCIONES",
+            "text": "<p>Click aquí para hacer un cambio o devolución<\/p>",
+            "button_text": "ver más",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "2c2edd0a-f99a-4bdb-bbfa-a7cb2d3429f1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iconos2-03.jpg",
+            "title": "DESPACHOS",
+            "text": "<p>Encuentra información sobre despachos<\/p>",
+            "button_text": "ver más",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_rdmUqj": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iconos2-04.jpg",
+            "title": "FORMAS DE PAGO",
+            "text": "<p>Conoce nuestras formas de pago habilitadas<\/p>",
+            "button_text": "ver más",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952593899841__2b6776dc-1f06-4279-94cb-cbd3ecd653cc-1683126238ada0cf52-0",
+        "28a8d27f-cdf1-4a53-9e1f-4826c054da3d",
+        "2c2edd0a-f99a-4bdb-bbfa-a7cb2d3429f1",
+        "text_block_rdmUqj"
       ],
       "settings": {
         "title": "",
-        "align_height": false,
-        "collection_height": 200,
-        "frontpage_collections_per_row": 3,
-        "css_class": "",
-        "custom_css": ""
+        "align_text": "text-center",
+        "columns": 4,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": false,
+        "desktop_aspect_ratio": 0.5,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 90,
+        "text_size": 80,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 18,
+        "padding_bottom": 58
       }
     },
-    "9192216f-bb25-46a5-8035-ce3dad91f940": {
-      "type": "slideshow",
+    "section_image_qkGK3Q": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_iconic_3000x_92e68532-b221-4ffb-b247-81608efb3dde.webp",
+        "height": "full-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_marquee_XPfrRb": {
+      "type": "section-marquee",
       "blocks": {
-        "template--14627287760960__9192216f-bb25-46a5-8035-ce3dad91f940-image-1": {
-          "type": "image",
+        "text_m7hkrJ": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/recien-llegados-paradise-web.jpg",
-            "pretext": "",
-            "title": "",
-            "subtitle": "",
-            "button1": "",
-            "button1_link": "shopify:\/\/collections\/novedades",
-            "button1_style": "global-button--banner",
-            "button2": "",
-            "button2_link": "",
-            "button2_style": "global-button--banner",
-            "text_position": "center",
-            "text_align": "center",
-            "caption_content_background": "original"
-          }
-        }
-      },
-      "block_order": [
-        "template--14627287760960__9192216f-bb25-46a5-8035-ce3dad91f940-image-1"
-      ],
-      "settings": {
-        "wide_display": true,
-        "slideshow_text_animation": "fadeInDown",
-        "slideshow_animation": "slide",
-        "slideshow_speed": 6,
-        "activate_adaptiveHeight": false,
-        "mobile_text_below_image": true,
-        "mobile_text_color": "",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "7b6f61bb-5136-429d-bf8d-0756ef7b6a9b": {
-      "type": "divider",
-      "settings": {
-        "divider_spacing": 20,
-        "divider_border": false,
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "2f9b0fc4-5bf3-4ea4-9ad7-15aa85000441": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "collection_description": true,
-        "collection": "novedades",
-        "collection_style": "grid",
-        "products_per": 4,
-        "products_limit": 8,
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "f799a21b-2016-4ea8-baee-834ffd158880": {
-      "type": "slideshow",
-      "blocks": {
-        "template--14721304789056__f799a21b-2016-4ea8-baee-834ffd158880-image-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "pretext": "",
-            "title": "Turbo Shopify Theme",
-            "subtitle": "",
-            "button1": "",
-            "button1_link": "",
-            "button1_style": "global-button--banner",
-            "button2": "",
-            "button2_link": "",
-            "button2_style": "global-button--banner",
-            "text_position": "center",
-            "text_align": "center",
-            "caption_content_background": "original"
+            "text": "<h1> 💌   <em>💌<\/em>   💌 <\/h1>",
+            "text_color": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 25,
+            "target_device_enabled": false,
+            "target_device": "mobile"
           }
         },
-        "template--14721304789056__f799a21b-2016-4ea8-baee-834ffd158880-image-2": {
-          "type": "image",
+        "text_yieptL": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconic-edition.png",
-            "pretext": "",
-            "title": "",
-            "subtitle": "",
-            "button1": "",
-            "button1_link": "",
-            "button1_style": "global-button--banner",
-            "button2": "",
-            "button2_link": "",
-            "button2_style": "global-button--banner",
-            "text_position": "center",
-            "text_align": "center",
-            "caption_content_background": "original"
+            "text": "<h3>Suscríbete a nuestro newsletter y entérate de todo<\/h3>",
+            "text_color": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 25,
+            "target_device_enabled": false,
+            "target_device": "mobile"
           }
         }
       },
       "block_order": [
-        "template--14721304789056__f799a21b-2016-4ea8-baee-834ffd158880-image-1",
-        "template--14721304789056__f799a21b-2016-4ea8-baee-834ffd158880-image-2"
+        "text_m7hkrJ",
+        "text_yieptL"
       ],
       "settings": {
-        "wide_display": true,
-        "slideshow_text_animation": "fadeInDown",
-        "slideshow_animation": "fade",
-        "slideshow_speed": 6,
-        "activate_adaptiveHeight": false,
-        "mobile_text_below_image": true,
-        "mobile_text_color": "",
-        "css_class": "",
-        "custom_css": ""
+        "layout": "marquee",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 10,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "slider_speed": 7,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_style": "subheading-text",
+        "text_size": 120,
+        "letter_spacing": 0,
+        "message_spacing": 10,
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "color": "#000000",
+        "border_color": "#000000",
+        "padding_top": 60,
+        "padding_bottom": 0
       }
     },
-    "5acd05ba-89cc-4259-b25c-09dc818c2879": {
-      "type": "slideshow",
-      "blocks": {
-        "template--14721304789056__5acd05ba-89cc-4259-b25c-09dc818c2879-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner_iconic.png",
-            "pretext": "",
-            "title": "",
-            "subtitle": "",
-            "button1": "",
-            "button1_link": "",
-            "button1_style": "global-button--banner",
-            "button2": "",
-            "button2_link": "",
-            "button2_style": "global-button--banner",
-            "text_position": "center",
-            "text_align": "center",
-            "caption_content_background": "original"
-          }
-        },
-        "template--14721304789056__5acd05ba-89cc-4259-b25c-09dc818c2879-image-2": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "pretext": "",
-            "title": "Your headline",
-            "subtitle": "",
-            "button1": "",
-            "button1_link": "",
-            "button1_style": "global-button--banner",
-            "button2": "",
-            "button2_link": "",
-            "button2_style": "global-button--banner",
-            "text_position": "center",
-            "text_align": "center",
-            "caption_content_background": "original"
-          }
-        }
-      },
-      "block_order": [
-        "template--14721304789056__5acd05ba-89cc-4259-b25c-09dc818c2879-image-1",
-        "template--14721304789056__5acd05ba-89cc-4259-b25c-09dc818c2879-image-2"
-      ],
+    "section_newsletter_jKbbKF": {
+      "type": "section-newsletter",
       "settings": {
-        "wide_display": true,
-        "slideshow_text_animation": "fadeInDown",
-        "slideshow_animation": "fade",
-        "slideshow_speed": 6,
-        "activate_adaptiveHeight": false,
-        "mobile_text_below_image": true,
-        "mobile_text_color": "",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "84450d44-5141-4180-bd0e-d4fcb0379cb7": {
-      "type": "divider",
-      "settings": {
-        "divider_spacing": 20,
-        "divider_border": false,
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "3e4b5019-b38d-4673-b143-e00df1401669": {
-      "type": "featured-collection",
-      "settings": {
+        "flex_align": "align--middle-center",
+        "text_color": "text-dark",
         "title": "",
-        "collection_description": true,
-        "collection": "trenzados",
-        "collection_style": "grid",
-        "products_per": 4,
-        "products_limit": 8,
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "blog-posts-1": {
-      "type": "blog-posts",
-      "disabled": true,
-      "settings": {
-        "title": "Blog posts",
-        "blog_widget_select": "",
-        "home_page_articles": 3,
-        "blog_tags": false,
-        "blog_author": false,
-        "read_time": true,
-        "blog_date": true,
-        "blog_comment_count": true,
-        "read_more_link": true,
-        "excerpt_display": "full_excerpt",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "75a2898a-ba96-4457-b0b4-9ad19c5b04d8": {
-      "type": "slideshow",
-      "blocks": {
-        "template--14627287760960__75a2898a-ba96-4457-b0b4-9ad19c5b04d8-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/INSCRIBETE-VGSDG.jpg",
-            "pretext": "",
-            "title": "",
-            "subtitle": "",
-            "button1": "",
-            "button1_link": "",
-            "button1_style": "global-button--banner",
-            "button2": "",
-            "button2_link": "",
-            "button2_style": "global-button--banner",
-            "text_position": "center",
-            "text_align": "center",
-            "caption_content_background": "original"
-          }
-        }
-      },
-      "block_order": [
-        "template--14627287760960__75a2898a-ba96-4457-b0b4-9ad19c5b04d8-image-1"
-      ],
-      "settings": {
-        "wide_display": true,
-        "slideshow_text_animation": "fadeInDown",
-        "slideshow_animation": "fade",
-        "slideshow_speed": 6,
-        "activate_adaptiveHeight": false,
-        "mobile_text_below_image": true,
-        "mobile_text_color": "",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "6b5d00a6-6287-403f-a885-a96449ed4910": {
-      "type": "newsletter",
-      "settings": {
-        "wide_display": true,
-        "display_first_name": true,
-        "display_last_name": true,
-        "newsletter_title": "",
-        "newsletter_text": "<p><strong>Conoce nuevos productos, descuentos y mucho más.<\/strong><\/p>",
-        "newsletter_section_text_align": "center",
-        "image": "shopify:\/\/shop_images\/BANNER_WEEB_PARADISE.png",
-        "css_class": "",
-        "custom_css": ""
+        "text": "",
+        "extra_fields": "name",
+        "button_text": "",
+        "bg_color": "",
+        "image_height": "three-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper",
+        "padding_top": 14,
+        "padding_bottom": 96
       }
     }
   },
   "order": [
-    "1ad6b202-7df6-4dec-9724-c5ef93a6e9a9",
-    "6b48fb36-2c63-4917-b9a3-962752b1b57e",
-    "7b11313b-6243-4597-8127-ece9b9cc1a52",
-    "9192216f-bb25-46a5-8035-ce3dad91f940",
-    "7b6f61bb-5136-429d-bf8d-0756ef7b6a9b",
-    "2f9b0fc4-5bf3-4ea4-9ad7-15aa85000441",
-    "f799a21b-2016-4ea8-baee-834ffd158880",
-    "5acd05ba-89cc-4259-b25c-09dc818c2879",
-    "84450d44-5141-4180-bd0e-d4fcb0379cb7",
-    "3e4b5019-b38d-4673-b143-e00df1401669",
-    "blog-posts-1",
-    "75a2898a-ba96-4457-b0b4-9ad19c5b04d8",
-    "6b5d00a6-6287-403f-a885-a96449ed4910"
+    "section_image_accordions_XCrp6c",
+    "0fd0a0be-e77a-4ddb-8b85-6b42aef84431",
+    "b32bd861-589d-4de7-a3a8-b50076aa0436",
+    "4cf35844-daa9-481f-b090-8c1bf37ee05d",
+    "section_marquee_K3zEBt",
+    "section_video_PBeGKm",
+    "section_collection_ip9pdK",
+    "section_marquee_zR3WMm",
+    "579fe882-0a05-42f7-a30f-6dec6414a297",
+    "eed1639f-4e75-408e-bbba-252f91e4ab8e",
+    "ba5ff9e9-c631-4459-9402-1c981f4c9659",
+    "section-look",
+    "section_marquee_PzFMEt",
+    "9e58ac81-e88d-4b2e-a006-c6d620af2258",
+    "2b6776dc-1f06-4279-94cb-cbd3ecd653cc",
+    "section_image_qkGK3Q",
+    "section_marquee_XPfrRb",
+    "section_newsletter_jKbbKF"
   ]
 }

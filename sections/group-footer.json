@@ -1,0 +1,75 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "logo_fFKPec": {
+          "type": "logo",
+          "settings": {
+            "alignment": "text-left",
+            "image": "shopify:\/\/shop_images\/PARADISE-JEANS_LOGO-2.png",
+            "logo_width": 250,
+            "show_shop_name": false,
+            "text": "",
+            "column_width": "30"
+          }
+        },
+        "footer-block-1": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "store",
+            "title": "Shop",
+            "column_width": "20"
+          }
+        },
+        "link_aff744": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "footer",
+            "title": "Información",
+            "column_width": "20"
+          }
+        },
+        "footer-block-2": {
+          "type": "text",
+          "settings": {
+            "alignment": "text-left",
+            "title": "Tiendas",
+            "footer_text": "<p><strong>Asunción #495, Recoleta, Santiago.<br\/>Santa Filomena #431, Recoleta, Santiago.<\/strong><\/p><p>Lunes a viernes 10:00 a 18:00 hrs<br\/>Sábado 10:00 a 16:00 hrs<br\/>Domingo Cerrado<\/p>",
+            "column_width": "30"
+          }
+        }
+      },
+      "block_order": [
+        "logo_fFKPec",
+        "footer-block-1",
+        "link_aff744",
+        "footer-block-2"
+      ],
+      "settings": {
+        "show_footer_wave": true,
+        "bottom_bar_alignment": "text-left",
+        "show_social_links": true,
+        "enable_follow_on_shop": true,
+        "show_payment_icons": true,
+        "bottom_menu": "",
+        "color_text": "#000000",
+        "color_bg": "#e4ff52",
+        "color_border": "#000000",
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_flag": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

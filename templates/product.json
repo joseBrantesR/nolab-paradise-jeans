@@ -1,115 +1,313 @@
 {
   "sections": {
-    "sidebar": {
-      "type": "product-sidebar",
-      "disabled": true,
-      "settings": {
-        "toggle": false
-      }
-    },
     "main": {
-      "type": "product-template",
+      "type": "product",
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
           "settings": {
-            "display_savings": true
+            "subheading": "none",
+            "show_rating": false,
+            "show_rating_count": false,
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "7ddd2db6-1d92-43ee-a7d9-e786662f9ced": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "none",
+            "icon_color": "{{ product.metafields.custom.colores.value }}",
+            "icon_image": "shopify:\/\/shop_images\/azulicono.jpg",
+            "icon_width": 20,
+            "icon_text": "{{ product.metafields.custom.color.value }}",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "rgba(0,0,0,0)",
+            "padding_bottom": 0
+          }
+        },
+        "divider_zbpdgG": {
+          "type": "divider",
+          "settings": {
+            "show_line": false,
+            "padding_bottom": 20
           }
         },
         "form": {
           "type": "form",
           "settings": {
-            "show_gift_card_recipient_form": false
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": true,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 20
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "298d0e2c-a81a-416a-b198-5311b0ec49c7": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+        "product_accordion_Cgy4gY": {
+          "type": "product_accordion",
           "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "center",
-            "product": "{{product}}",
-            "stars_text_empty": "No hay comentarios"
+            "accordion_heading": "Guia de Tallas",
+            "heading_style": "font-body",
+            "accordion_text": "",
+            "accordion_page": "guia-de-tallas",
+            "padding_bottom": 20
           }
         },
-        "ca56dfca-a368-41b4-9e45-8b7c865c8e29": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {}
+        "product_accordion_CeYMfb": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Materiales y cuidados",
+            "heading_style": "font-body",
+            "accordion_text": "<p>75% ALGODÓN 22% POLY 3%ELASTANO<\/p><p>Lavado a máquina a 40 grados<br\/>       · No usar cloro \/ blanqueador<br\/>       · No secar al sol<br\/>       · No planchar<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
+        },
+        "9927e90d-2ecb-4104-af67-0dadf75b2a0a": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Hecho en Chile",
+            "heading_style": "font-body",
+            "accordion_text": "<p>Nuestros jeans son fabricados con horma chica, por lo que recomendamos elegir una talla más grande de la habitual.<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "divider_ygcmrz": {
+          "type": "divider",
+          "settings": {
+            "show_line": false,
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "product_list": [
+              "copia-de-flare-jeans-1676"
+            ],
+            "padding_bottom": 20
+          }
+        },
+        "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9": {
+          "type": "feature",
+          "settings": {
+            "icon_name": "support",
+            "icon_width": 25,
+            "title": "¿Necesitas ayuda?",
+            "text": "<p>Haz click <a href=\"https:\/\/api.whatsapp.com\/send\/?phone=%2B56988268642&text&type=phone_number&app_absent=0\" target=\"_blank\" title=\"https:\/\/api.whatsapp.com\/send\/?phone=%2B56988268642&text&type=phone_number&app_absent=0\"><strong>aquí<\/strong><\/a> para hablar con nosotros y obtener más información<\/p>",
+            "bg_color": "#000000",
+            "text_color": "#ffffff",
+            "padding_bottom": 20
+          }
+        },
+        "pickup_9EETzh": {
+          "type": "pickup",
+          "settings": {
+            "padding_bottom": 20
+          }
         }
       },
       "block_order": [
         "title",
-        "price",
-        "form",
         "description",
-        "298d0e2c-a81a-416a-b198-5311b0ec49c7",
-        "ca56dfca-a368-41b4-9e45-8b7c865c8e29"
+        "7ddd2db6-1d92-43ee-a7d9-e786662f9ced",
+        "divider_zbpdgG",
+        "form",
+        "product_accordion_Cgy4gY",
+        "product_accordion_CeYMfb",
+        "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
+        "divider_ygcmrz",
+        "upsell",
+        "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9",
+        "pickup_9EETzh"
       ],
       "settings": {
-        "product_breadcrumb": true,
-        "media_position": "is-flex-row",
-        "set_product_height": false,
-        "product_height": 500,
-        "video_looping": false,
-        "product_thumbs": true,
-        "gallery_arrows": false,
-        "enable_product_lightbox": true,
-        "activate_zoom": true,
-        "slideshow_speed": 0,
-        "slideshow_animation": "fade",
-        "thumbnail_position": "right",
-        "enable_thumbnail_slider": true
+        "product_sticky_enable": true,
+        "image_layout": "stacked",
+        "image_width": "standard",
+        "product_image_aspect_ratio": true,
+        "enable_zoom": false,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
-    "recently-viewed": {
-      "type": "recently-viewed",
+    "section_collection_X7x3F8": {
+      "type": "section-collection",
       "settings": {
-        "rv_title": "Vistos recientemente",
-        "rv_max_display": 4,
-        "rv_per": 4,
-        "css_class": "",
-        "custom_css": ""
+        "collection": "cargo",
+        "products_layout": "grid",
+        "number_of_products": 4,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<h1>Productos que <em>te podrían gustar<\/em>  ❤️‍🔥<\/h1>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 135,
+        "text": "",
+        "text_size": 120,
+        "button_text": "Shop Now",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
-    "recommendations": {
-      "type": "product-recommendations",
+    "38ff978b-66eb-4318-9ce0-94db8ff86311": {
+      "type": "section-columns",
+      "blocks": {
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-0",
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1",
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-2"
+      ],
       "settings": {
-        "show_product_recommendations": true,
-        "wide_display": false,
-        "product_recommendations_style": "grid",
-        "product_recommendations_heading": "También te podrían interesar...",
-        "products_per_row": 5,
-        "recommended_products_limit": 5
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
-    "newsletter": {
-      "type": "newsletter",
+    "tabs": {
+      "type": "section-accordions",
+      "blocks": {
+        "acordion-0": {
+          "type": "text",
+          "settings": {
+            "title": "Pregunta Frecuente 1",
+            "text": "<p>Texto de muestra<\/p>"
+          }
+        },
+        "acordion-1": {
+          "type": "text",
+          "settings": {
+            "title": "Pregunta Frecuente 2",
+            "text": "<p>Texto de muestra<\/p>"
+          }
+        },
+        "acordion-2": {
+          "type": "text",
+          "settings": {
+            "title": "Pregunta Frecuente 3",
+            "text": "<p>Texto de muestra<\/p>"
+          }
+        },
+        "d0defd0d-94c3-403c-bd36-dc2f140a104f": {
+          "type": "text",
+          "settings": {
+            "title": "Pregunta Frecuente 4",
+            "text": "<p>Texto de muestra<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "acordion-0",
+        "acordion-1",
+        "acordion-2",
+        "d0defd0d-94c3-403c-bd36-dc2f140a104f"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": true,
+        "title": "Preguntas Frecuentes",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "rgba(0,0,0,0)",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 90
+      }
+    },
+    "related": {
+      "type": "related-products",
       "disabled": true,
       "settings": {
-        "wide_display": true,
-        "display_first_name": false,
-        "display_last_name": false,
-        "newsletter_title": "Subscribe",
-        "newsletter_text": "<p>Sign up to get the latest on sales, new releases and more …<\/p>",
-        "newsletter_section_text_align": "center",
-        "css_class": "",
-        "custom_css": ""
+        "enable_tabs": true,
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },
   "order": [
-    "sidebar",
     "main",
-    "recently-viewed",
-    "recommendations",
-    "newsletter"
+    "section_collection_X7x3F8",
+    "38ff978b-66eb-4318-9ce0-94db8ff86311",
+    "tabs",
+    "related"
   ]
 }

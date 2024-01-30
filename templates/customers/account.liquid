@@ -1,129 +1,108 @@
-{% paginate customer.orders by 20 %}
-  <section class="section">
-    <div class="container content">
-      <div
-        class="
-          one-half
-          column
-          medium-down--one-whole
-        "
-      >
-        <h1>
-          {{ 'customer.account.details' | t }}
-        </h1>
-      </div>
+<!-- /templates/customers/account.liquid -->
+<section class="page-customer">
+  <div class="wrapper">
+    <div class="account-wrapper">
+      <div class="account text-left">
+        <div class="section__header">
+          <h1 class="section__heading account__heading">{{ 'customer.account.title' | t }}</h1>
+          <a class="account__logout" href="{{ routes.account_logout_url }}">{{ 'layout.customer.log_out' | t }}</a>
 
-      <div
-        class="
-          one-half
-          column
-          medium-down--one-whole
-          account-header-logout
-        "
-      >
-        <span>
-          <a href="{{ routes.account_logout_url }}" id="customer_logout_link">
-            {{ 'layout.customer.log_out' | t }}
-          </a>
-        </span>
-      </div>
-
-      <div class="one-whole column">
-        <div class="feature-divider"></div>
-      </div>
-
-      <aside
-        class="
-          one-third
-          column
-          medium-down--one-whole
-          account-sidebar
-        "
-      >
-        <h4 class="name">
-          <a href="{{ routes.account_url }}" title="{{ 'layout.customer.my_account' | t }}">
-            {{ customer.name }}
-          </a>
-        </h4>
-
-        <p class="email note">
-          {{ customer.email }}
-        </p>
-
-        <h4>{{ 'customer.addresses.primary' | t }}</h4>
-
-        <div class="address note">
-          {% if customer.default_address != nil %}
-            <p>{{ customer.default_address.address1 }}</p>
-
-            {% if customer.default_address.address2 != "" %}
-              <p>{{ customer.default_address.address2 }}</p>
-            {% endif %}
-
-            <p>{{ customer.default_address.city }}{% if customer.default_address.province_code %}, {{ customer.default_address.province_code }}{% endif %} {{ customer.default_address.zip }}</p>
-
-            <p>{{ customer.default_address.country }}</p>
-
-            <p>{{ customer.default_address.phone }}</p>
-          {% else %}
-            <p>{{ 'customer.addresses.no_addresses' | t }}</p>
-          {% endif %}
-
-          <p>
-            <a href="{{ routes.account_addresses_url }}">
-              {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
-            </a>
-          </p>
+          {%- if settings.show_spacer_lines -%}
+            <hr class="section__heading-line">
+          {%- endif -%}
         </div>
-      </aside>
 
-      <main
-        class="
-          two-thirds
-          columns
-          medium-down--one-whole
-          account-main
-        "
-      >
-        <h4>{{ 'customer.orders.title' | t }}</h4>
+        <div class="account__table">
+          <div class="account__table__item">
+            <h4 class="account__heading">{{ 'customer.orders.title' | t }}</h4>
+            {% comment %}
+            If we have past orders, loop through each one
+            {% endcomment %}
+            {% paginate customer.orders by 20 %}
+              {% if customer.orders.size != 0 %}
+                <div class="table-wrap">
+                  <table class="full">
+                    <thead class="desktop-order">
+                      <tr>
+                        <th>{{ 'customer.orders.order_number' | t }}</th>
+                        <th>{{ 'customer.orders.date' | t }}</th>
+                        <th>{{ 'customer.orders.payment_status' | t }}</th>
+                        <th>{{ 'customer.orders.fulfillment_status' | t }}</th>
+                        <th>{{ 'customer.orders.total' | t }}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {% for order in customer.orders %}
+                        {%- liquid
+                          if order.total_price == 0
+                            assign order_total = 'products.product.free' | t | link_to: order.customer_url
+                          else
+                            assign order_total = order.total_price | money_with_currency | link_to: order.customer_url
+                          endif
+                        -%}
 
-        {% if customer.orders.size != 0 %}
-          <table id="customer-orders" class="collapsible-table">
-            <thead>
-              <tr>
-                <th>{{ 'customer.orders.order_number' | t }}</th>
-                <th>{{ 'customer.orders.date' | t }}</th>
-                <th>{{ 'customer.orders.payment_status' | t }}</th>
-                <th>{{ 'customer.orders.fulfillment_status' | t }}</th>
-                <th>{{ 'customer.orders.total' | t }}</th>
-              </tr>
-            </thead>
+                        <tr class="responsive-order">
+                          <th class="order-title">{{ 'customer.orders.order_number' | t }}</th>
+                          <td class="order-title">{{ order.name | link_to: order.customer_url }}</td>
+                          <th>{{ 'customer.orders.date' | t | link_to: order.customer_url }}</th>
+                          <td>{{ order.created_at | date: format: 'month_day_year' | link_to: order.customer_url }}</td>
+                          <th>{{ 'customer.orders.payment_status' | t | link_to: order.customer_url }}</th>
+                          <td>{{ order.financial_status_label | link_to: order.customer_url }}</td>
+                          <th>{{ 'customer.orders.fulfillment_status' | t | link_to: order.customer_url }}</th>
+                          <td>{{ order.fulfillment_status_label | link_to: order.customer_url }}</td>
+                          <th>{{ 'customer.orders.total' | t | link_to: order.customer_url }}</th>
+                          <td>{{- order_total -}}</td>
+                        </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              {% else %}
+                <p>{{ 'customer.orders.none' | t }}</p>
+              {% endif %}
 
-            <tbody>
-              {% for order in customer.orders %}
-                <tr class="{% cycle 'odd', 'even' %} {% if order.cancelled %}cancelled_order{% endif %}">
-                  <td data-label="{{ 'customer.orders.order_number' | t }}">{{ order.name | link_to: order.customer_url }}</td>
-                  <td data-label="{{ 'customer.orders.date' | t }}">{{ order.created_at | date: format: "month_day_year" }}</td>
-                  <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
-                  <td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>
-                  <td data-label="{{ 'customer.orders.total' | t }}">
-                    <span class="money">{% render 'price-element', price: order.total_price %}</span>
-                  </td>
-                </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        {% else %}
-          <p>{{ 'customer.orders.none' | t }}</p>
-        {% endif %}
+              {% if paginate.pages > 1 %}
+                {%- if settings.show_spacer_lines -%}
+                  <hr class="hr--full">
+                {%- endif -%}
+                <div class="pagination">
+                  {{ paginate | default_pagination | replace: '&laquo; Previous', '&larr;' | replace: 'Next &raquo;', '&rarr;' }}
+                </div>
+              {% endif %}
+            {% endpaginate %}
+          </div>
+          <div class="account__table__item">
+              <h4>{{ 'customer.account.details' | t }}</h4>
 
-        {%
-          render 'pagination',
-          paginate: paginate,
-        %}
-      </main>
+              {% if customer.default_address != nil %}
+                <p>{{ customer.default_address.first_name }} {{ customer.default_address.last_name }}<br>
+                  {{ customer.default_address.address1 }}<br>
+                  {% if customer.default_address.address2 != "" %}
+                    {{ customer.default_address.address2 }}<br>
+                  {% endif %}
+                  {% if customer.default_address.city != "" %}
+                    {{ customer.default_address.city }}<br>
+                  {% endif %}
+                  {% if customer.default_address.province_code != nil %}
+                    {{ customer.default_address.province_code | upcase }}<br>
+                  {% endif %}
+                  {% if customer.default_address.zip != "" %}
+                    {{ customer.default_address.zip | upcase }}<br>
+                  {% endif %}
+                  {% if customer.default_address.country != "" %}
+                    {{ customer.default_address.country }}<br>
+                  {% endif %}
+                  {% if customer.default_address.phone != "" %}
+                    {{ customer.default_address.phone }}
+                  {% endif %}
+                </p>
+              {% else %}
+                <p>{{ customer.name }}</p>
+              {% endif %}
+              <p><a href="{{ routes.account_addresses_url }}">{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a></p>
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
-{% endpaginate %}
-
-{% section 'newsletter' %}
+  </div>
+</section>

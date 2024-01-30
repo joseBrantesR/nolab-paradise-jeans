@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "section_banner_image_K9ec6V": {
+      "type": "section-banner-image",
+      "blocks": {
+        "heading_XhNBtz": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>{{ collection.title }}<\/p>",
+            "size": 155,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XhNBtz"
+      ],
+      "settings": {
+        "height": "one-third-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/banner_iconic_3000x_92e68532-b221-4ffb-b247-81608efb3dde.webp",
+        "overlay_opacity": 10,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "one-fifty-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-light",
+        "overlay_opacity": 10,
+        "bg_color_secondary": false,
+        "banner_image": "shopify:\/\/shop_images\/bannercategorias.jpg",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollections": [],
+        "limit": 8,
+        "layout": "carousel",
+        "image_source": "product",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "promo_jHdHkc": {
+          "type": "promo",
+          "settings": {
+            "collection": "",
+            "position": 8,
+            "width": "half",
+            "title": "<p>Promotion title<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "Advertise a promotion or a sale",
+            "text_size": 100,
+            "text_color": "text-light",
+            "text_position": "bottom-left",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#d3d3d3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "promo_jHdHkc"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_layout": "open",
+        "show_more": true,
+        "filter_mode": "default",
+        "bg_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_banner_image_K9ec6V",
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}

@@ -1,16 +1,16 @@
 {
   "sections": {
     "main": {
-      "type": "article-template",
+      "type": "article",
       "settings": {}
     },
-    "newsletter": {
-      "type": "newsletter",
+    "recommended-posts": {
+      "type": "section-recommended-posts",
       "settings": {}
     }
   },
   "order": [
     "main",
-    "newsletter"
+    "recommended-posts"
   ]
 }

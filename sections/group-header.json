@@ -1,0 +1,107 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESPACHO GRATIS por compras sobre $40.000 en TODAS LAS REGIONES<\/p>",
+            "text_color": "#000000",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#ffffff",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_jQCEfw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iconos2-03.jpg",
+            "link": "",
+            "image_width": 80
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0",
+        "image_jQCEfw"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "show_top_border": true,
+        "show_bottom_border": true,
+        "padding": 5,
+        "slider_speed": 7,
+        "show_arrows": false,
+        "marquee_speed": 75,
+        "direction": "ticker-rtl",
+        "text_caps": false,
+        "type_style": "subheading-text",
+        "text_size": 100,
+        "letter_spacing": 0,
+        "message_spacing": 25,
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "color": "#ffffff",
+        "border_color": "#000000"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "image_Dmkh7E": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/1923-7.jpg",
+            "aspect_ratio": 1,
+            "wide_image": true,
+            "title": "SUMMER 2024",
+            "heading_size": 150,
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Dmkh7E"
+      ],
+      "custom_css": [],
+      "settings": {
+        "sticky_header": true,
+        "header_border": false,
+        "link_hover_effect": "line",
+        "logo_not_home": "shopify:\/\/shop_images\/paradiselogonegro.png",
+        "logo_max_width": 140,
+        "main-menu": "menu-palo-alto",
+        "main_menu_secondary": "",
+        "show_images": false,
+        "image_aspect_ratio": 1,
+        "menu_alignment": "right",
+        "header_icons_as_text": false,
+        "highlight_item": "Sale",
+        "highlight_item_color": "#d02e2e",
+        "header_transparent": true,
+        "logo": "shopify:\/\/shop_images\/paradiselogoblanco.png",
+        "header_text_color": "white",
+        "header_gradient": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

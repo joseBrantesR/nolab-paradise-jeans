@@ -1,13 +1,8 @@
 {
   "sections": {
     "main": {
-      "type": "cart-template",
-      "settings": {
-        "display_special_instructions": true,
-        "display_savings": true,
-        "cart_message": "",
-        "continue_shopping_url": ""
-      }
+      "type": "cart",
+      "settings": {}
     }
   },
   "order": [

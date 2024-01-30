@@ -1,48 +1,122 @@
 {
   "sections": {
-    "main": {
-      "type": "collection-template",
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "one-third-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-dark",
+        "overlay_opacity": 10,
+        "bg_color_secondary": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8d9a9dcc-b650-4240-8dbe-558bd59ba535": {
+      "type": "section-text",
       "blocks": {
-        "2e76b511-e198-4d42-b267-603207c91c22": {
-          "type": "faceted_filtering",
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1": {
+          "type": "heading",
           "settings": {
-            "show_filter_product_count": true
+            "text": "<p>{{ collection.title }}<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.title }}<\/p>",
+            "size": 100
           }
         }
       },
       "block_order": [
-        "2e76b511-e198-4d42-b267-603207c91c22"
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1",
+        "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-text-1"
       ],
       "settings": {
-        "featured_collection_image": false,
-        "wide_display": true,
-        "caption_content_background": "original",
-        "display_collection_title": false,
-        "collection_breadcrumb": true,
-        "collection_tags": false,
-        "collection_sort": true,
-        "products_per_row": 2,
-        "pagination_limit": 12,
-        "toggle": true
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 16,
+        "padding_bottom": 0
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "disabled": true,
+    "subcollections": {
+      "type": "subcollections",
       "settings": {
-        "wide_display": true,
-        "display_first_name": false,
-        "display_last_name": false,
-        "newsletter_title": "Subscribe",
-        "newsletter_text": "<p>Sign up to get the latest on sales, new releases and more …<\/p>",
-        "newsletter_section_text_align": "center",
-        "css_class": "",
-        "custom_css": ""
+        "subcollections": [],
+        "limit": 8,
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 30,
+        "padding_bottom": 14
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "96343c36-f832-4740-8cd6-2a90dcf9e4d9": {
+          "type": "promo",
+          "settings": {
+            "collection": "",
+            "position": 5,
+            "width": "half",
+            "title": "<p>Promotion title<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#fbcaff",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "Advertise a promotion or a sale",
+            "text_size": 100,
+            "text_color": "text-light",
+            "text_position": "bottom-left",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#f5f4f1",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "96343c36-f832-4740-8cd6-2a90dcf9e4d9"
+      ],
+      "custom_css": [
+        ".product__badge__item--sale {font-size: 12px;}",
+        ".product__badge {font-size: 12px;}",
+        ".product__badge__item {font-size: 12px;}"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_layout": "open",
+        "show_more": true,
+        "filter_mode": "default",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 60
       }
     }
   },
   "order": [
-    "main",
-    "newsletter"
+    "hero",
+    "8d9a9dcc-b650-4240-8dbe-558bd59ba535",
+    "subcollections",
+    "main"
   ]
 }
