@@ -1,0 +1,48 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "blocks": {
+        "2e76b511-e198-4d42-b267-603207c91c22": {
+          "type": "faceted_filtering",
+          "settings": {
+            "show_filter_product_count": true
+          }
+        }
+      },
+      "block_order": [
+        "2e76b511-e198-4d42-b267-603207c91c22"
+      ],
+      "settings": {
+        "featured_collection_image": false,
+        "wide_display": true,
+        "caption_content_background": "original",
+        "display_collection_title": false,
+        "collection_breadcrumb": true,
+        "collection_tags": false,
+        "collection_sort": true,
+        "products_per_row": 2,
+        "pagination_limit": 12,
+        "toggle": true
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "wide_display": true,
+        "display_first_name": false,
+        "display_last_name": false,
+        "newsletter_title": "Subscribe",
+        "newsletter_text": "<p>Sign up to get the latest on sales, new releases and more …<\/p>",
+        "newsletter_section_text_align": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter"
+  ]
+}
