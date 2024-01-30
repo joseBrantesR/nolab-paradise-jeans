@@ -48,7 +48,7 @@
   data-section-id="{{ section.id }}"
   data-cart-page>
   <div class="wrapper">
-    <form action="{{ routes.cart_url }}" method="post" novalidate data-cart-form>
+    <form action="{{ routes.cart_url }}" method="post" novalidate data-cart-form class="cart">
       <div class="cart__empty{% if cart_items_size > 0 %} hidden{% endif %}" data-empty-message>{%- capture cart_empty_drawer_markup -%}
   {{- 'cart.general.empty' | t -}}
 
@@ -286,6 +286,8 @@
               -%}
             </span>
           </div>
+
+          {% render 'cart-shipping-popup' %}
 
           {%- for block in section.blocks -%}
             {%- render block -%}
