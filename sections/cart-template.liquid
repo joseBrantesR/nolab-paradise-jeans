@@ -73,7 +73,7 @@
       </div>
       <br />
 
-      <form action="{{ routes.cart_url }}" method="post" id="cart_form" data-cart-form="cart-template" data-total-discount="{{ cart.total_discount }}">
+      <form action="{{ routes.cart_url }}" method="post" class="cart" id="cart_form" data-cart-form="cart-template" data-total-discount="{{ cart.total_discount }}">
         <div class="cart__wrapper is-flex is-flex-wrap">
           <div class="two-thirds columns medium-down--one-whole">
             {%- assign total_saving = 0 -%}
@@ -250,7 +250,7 @@
                       {%
                         render 'price-element',
                         price: discount_application.total_allocated_amount
-                      %}
+                      %} 
                     </span>
                   </span>
                 {% endfor %}
@@ -268,6 +268,8 @@
               </span>
               <span>{{ 'cart.general.subtotal' | t }}</span>
             </p>
+
+            {% render 'cart-shipping-popup' %}
 
             {%- capture taxes_shipping_checkout -%}
               {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
